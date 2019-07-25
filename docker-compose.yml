@@ -1,0 +1,8 @@
+version: "3.3"
+
+services:
+  go-getbox:
+    build: ./
+    volumes:
+      - /var/www/getbox:/var/www/getbox
+      - /var/log/getbox:/var/log/getbox
